@@ -1,0 +1,162 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FAF4EF;
+  color: #5A3E3E;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  width: 15vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  display: block;
+  background-color: #8C6A6A;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 55%;
+  border-radius: 24px;
+  padding-right: 15px;
+  font-size: larger;
+
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 23px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 75%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+textarea {
+  height: 100px;
+  width: 95%;
+}
+
+#dropdown {
+  padding: 8px;
+  margin-bottom: 21px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.User-Info {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #8C5A4A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 95%;
+}
+
+button:hover {
+  background-color: #A46B5C;
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: inline-flex;
+  gap: 8px;
+  font-weight: normal;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0;
+  transform: scale(1.2);
+}
+
+.definitely,
+.maybe,
+.not-sure {
+  align-items: center;
+  gap: 10px;
+
+}
+
+#comments {
+  margin-top: 10px;
+  font-family: 'Doto', sans-serif;
+  font-size: 18px;
+}
+
+hr {
+  background-color: #FAF4EF;
+  color: #FAF4EF;
+}
+
+.header {
+  background-color: #8C6A6A; /* Same cozy color as form sections */
+  padding: 15px 0; /* Vertical padding for better spacing */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 110px; /* Space between links */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #FAF4EF; /* White text for contrast */
+  font-family: 'Cabin', sans-serif; /* Cozy font */
+  font-size: 1.1em; /* Slightly larger font for readability */
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+  color: #F4CDA5; /* Lighter beige for hover effect */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for hover depth */
+}
+
+nav a:active {
+  color: #FFD7B5; /* Slightly lighter peach when clicked */
+}
+
+#survey-form {
+  color: #FAF4EF;
+}
